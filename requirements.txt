@@ -1,0 +1,10 @@
+# Python 3.10+
+aiogram          # Telegram-бот
+aiohttp          # запросы к VK API и HIBP
+fastapi          # веб-API
+uvicorn          # сервер для FastAPI
+aiofiles         # отдача статических файлов интерфейса
+playwright       # веб-поиск через Chromium (после установки: playwright install chromium)
+telethon         # публичный поиск в Telegram (необязательно)
+maigret          # поиск аккаунтов по нику на сотнях сайтов
+holehe           # проверка, где зарегистрирован email (необязательно)

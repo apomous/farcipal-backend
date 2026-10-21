@@ -1,0 +1,26 @@
+# секреты и сессии: никогда не коммитить
+.env
+*.session
+*.session-journal
+
+# данные, которые создаёт программа
+*.db
+*.log
+*.log.*
+reports/
+
+# интерфейс лежит в отдельном репозитории (farcipal-eye). Если подключаете его как submodule, уберите эту строку
+ui/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# редакторы и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
